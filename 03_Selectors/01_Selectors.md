@@ -1,4 +1,4 @@
-# [❮ Previous]() [Next ❯]()
+# [<<< Previous](../02_Syntax/01_Syntax.md) :: [Next >>>](../04_How_To_Add_CSS/01_How_To_Add_CSS.md)
 
 # CSS Selectors
 
@@ -22,7 +22,7 @@ This page will explain the most basic CSS selectors.
 
 The element selector selects HTML elements based on the element name.
 
-### [Example:](selector.html)s
+### [Example:](selector.html)
 
 Here, all `<p>` elements on the page will be center-aligned, with a red text color: 
 ```css
@@ -179,3 +179,5 @@ h1, h2, p {
     <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
   </tr>
 </tbody></table>
+
+# [<<< Previous](../02_Syntax/01_Syntax.md) :: [Next >>>](../04_How_To_Add_CSS/01_How_To_Add_CSS.md)

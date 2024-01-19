@@ -1,3 +1,4 @@
+# [<<< Previous](../03_Selectors/01_Selectors.md) :: [Next >>>]()
 # How To Add CSS
 
 When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.
@@ -23,7 +24,7 @@ External styles are defined within the `<link>` element, inside the `<head>` sec
 <!DOCTYPE html>  
 <html>  
     <head>  
-        <link rel\="stylesheet" href\="mystyle.css">  
+        <link rel="stylesheet" href="mystyle.css">  
     </head>  
 <body>  
   
@@ -64,16 +65,20 @@ The internal style is defined inside the `<style>` element, inside the head sect
 ### Example
 
 Internal styles are defined within the `<style>` element, inside the `<head>` section of an HTML page:
-
+```html
 <!DOCTYPE html>  
 <html>  
 <head>  
-<style>  
-body {  background-color: linen;}  
-  
-h1 {  color: maroon;  
-  margin-left: 40px;}  
-</style>  
+    <style>  
+        body {
+            background-color: linen;
+        }  
+        
+        h1 {
+            color: maroon;  
+            margin-left: 40px;
+        }  
+    </style>  
 </head>  
 <body>  
   
@@ -82,9 +87,7 @@ h1 {  color: maroon;
   
 </body>  
 </html>
-
-[Try it Yourself »](https://www.w3schools.com/css/css_howto.asptryit.asp?filename=trycss_howto_internal)
-
+```
 ___
 
 ## Inline CSS
@@ -96,79 +99,63 @@ To use inline styles, add the style attribute to the relevant element. The style
 ### Example
 
 Inline styles are defined within the "style" attribute of the relevant element:
-
+```HTML
 <!DOCTYPE html>  
 <html>  
 <body>  
   
-<h1 style\="color:blue;text-align:center;">This is a heading</h1>  
-<p style\="color:red;">This is a paragraph.</p>  
+<h1 style="color:blue;text-align:center;">This is a heading</h1>  
+<p style="color:red;">This is a paragraph.</p>  
   
 </body>  
 </html>
-
-[Try it Yourself »](https://www.w3schools.com/css/css_howto.asptryit.asp?filename=trycss_howto_inline)
+```
 
 **Tip:** An inline style loses many of the advantages of a style sheet (by mixing content with presentation). Use this method sparingly.
-
-___
 
 ## Multiple Style Sheets
 
 If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used. 
 
-Assume that an **external style sheet** has the following style for the <h1> element:
+Assume that an **external style sheet** has the following style for the `<h1>` element:
+```CSS
+h1 {
+    color: navy;
+}
+```
+Then, assume that an **internal style sheet** also has the following style for the `<h1>` element:
+```CSS
+h1 {
+    color: orange;   
+}
+```
+### Example
 
-h1 {  color: navy;}
+If the internal style is defined **after** the link to the external style sheet, the `<h1>` elements will be "orange":
 
-Then, assume that an **internal style sheet** also has the following style for the <h1> element:
+```HTML
+<head>  
+    <link rel="stylesheet" type="text/css" href="mystyle.css">  
+    <style>  
+        h1 {
+            color: orange;
+        }  
+    </style>  
+</head>
+```
 
-h1 {  color: orange;   }
 
 ### Example
 
-If the internal style is defined **after** the link to the external style sheet, the <h1> elements will be "orange":
-
+However, if the internal style is defined **before** the link to the external style sheet, the `<h1>` elements will be "navy": 
+```HTML
 <head>  
-<link rel\="stylesheet" type\="text/css" href\="mystyle.css">  
-<style>  
-h1 {  color: orange;}  
-</style>  
+    <style>  
+        h1 {
+            color: orange;
+        }  
+    </style>  
+    <link rel="stylesheet" type="text/css" href="mystyle.css">  
 </head>
-
-[Try it Yourself »](https://www.w3schools.com/css/css_howto.asptryit.asp?filename=trycss_howto_multiple)
-
-### Example
-
-However, if the internal style is defined **before** the link to the external style sheet, the <h1> elements will be "navy": 
-
-<head>  
-<style>  
-h1 {  color: orange;}  
-</style>  
-<link rel\="stylesheet" type\="text/css" href\="mystyle.css">  
-</head>
-
-[Try it Yourself »](https://www.w3schools.com/css/css_howto.asptryit.asp?filename=trycss_howto_multiple2)
-
-___
-
-## Cascading Order
-
-What style will be used when there is more than one style specified for an HTML element?
-
-All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
-
-1.  Inline style (inside an HTML element)
-2.  External and internal style sheets (in the head section)
-3.  Browser default
-
-So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
-
-[Try it Yourself »](https://www.w3schools.com/css/css_howto.asptryit.asp?filename=trycss_howto_cascade)
-
-Ever heard about **W3Schools Spaces**? Here you can create your own website, or save code snippets for later use, for free.
-
-[Get started for free ❯](https://www.w3spaces.com "Get Started With W3Schools Spaces")
-
-_\* no credit card required_
+```
+# [<<< Previous](../03_Selectors/01_Selectors.md) :: [Next >>>]()

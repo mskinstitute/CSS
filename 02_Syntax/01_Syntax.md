@@ -1,3 +1,5 @@
+# [<<< Previous](../01_Intro/intro.md) :: [Next >>>](../03_Selectors/01_Selectors.md)
+
 # CSS Syntax
 A CSS rule consists of a selector and a declaration block.
 
@@ -30,3 +32,5 @@ p {
 - color is a property, and red is the property value
 - text-align is a property, and center is the property value
 - You will learn much more about CSS selectors and CSS properties in the next chapters!
+
+# [<<< Previous](../01_Intro/intro.md) :: [Next >>>](../03_Selectors/01_Selectors.md)

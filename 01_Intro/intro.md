@@ -61,3 +61,4 @@ The style definitions are normally saved in external .css files.
 
 With an external stylesheet file, you can change the look of an entire website by changing just one file!
 
+# [Next >>>](../02_Syntax/01_Syntax.md)
