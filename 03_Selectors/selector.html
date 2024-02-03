@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Element Selector  */
+        div{
+            background-color: red;
+        }
+
+        /* Class Selector  */
+        .salt{
+            background-color: yellow;
+
+        }
+
+        /* Id Selector */
+        #apple{
+            background-color: green;
+        }
+
+        /* Child Selectors  */
+        .salt > p{
+            color: magenta;
+        }
+
+        /* Descendant Selector  */
+        div p {
+            color: blue;
+        }
+
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector  */
+        a:visited{
+            color: yellow
+        }
+
+        a:link {
+            color: orchid;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: yellow;
+        }
+
+        h2:first-child{
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        I am a normal box
+        <h2>i am heading first</h2>
+        <h2>i am heading second</h2>
+    </div>
+    
+    <div class="salt">
+        I am Salt box
+        <h2>i am heading <span>sumit</span> first</h2>
+        <h2>i am heading second</h2>
+        <p>I am paragraph in just salt box</p>
+        <main>
+            <p>i am paragraph in ( div > main > p tag)</p>
+            <div>
+                <h2>i am heading first</h2>
+                <h2>i am heading second</h2>
+                <p>i am in ( div > main > div > p tag )</p>
+            </div>
+        </main>
+        <p>I am paragraph in just salt box</p>
+
+    </div>
+
+    <div id="apple">
+        I am Apple box
+    </div>
+
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook.com">Go to Facebook</a>
+    <a href="https://mskinstitute.com">Go to MSK Institute</a>
+
+
+    <div>
+        <p>I am paragraph in just salt box</p>
+    </div>
+
+    <br><br><br><br><br>
+
+
+    <h5 class="first second third" id="trying" data-contact>MSK Institute</h5>
+
+</body>
+</html>
