@@ -87,7 +87,7 @@ div {
 
 ## Try it Yourself - Examples
 
-[Set the height and width of elements]()  
+[Set the height and width of elements](./examples/01_Height_and_width_properties.html)  
 This example demonstrates how to set the height and width of different elements.
 
 [Set the height and width of an image using percent]()  
@@ -104,8 +104,8 @@ This example demonstrates how to set a minimum height and a maximum height of an
 | Property | Description |
 | --- | --- |
 | [height](https://www.w3schools.com/cssref/pr_dim_height.asp) | Sets the height of an element |
-| [max-height](https://www.w3schools.com/cssref/pr_dim_max-height.asp) | Sets the maximum height of an element |
-| [max-width](https://www.w3schools.com/cssref/pr_dim_max-width.asp) | Sets the maximum width of an element |
 | [min-height](https://www.w3schools.com/cssref/pr_dim_min-height.asp) | Sets the minimum height of an element |
-| [min-width](https://www.w3schools.com/cssref/pr_dim_min-width.asp) | Sets the minimum width of an element |
+| [max-height](https://www.w3schools.com/cssref/pr_dim_max-height.asp) | Sets the maximum height of an element |
 | [width](https://www.w3schools.com/cssref/pr_dim_width.asp) | Sets the width of an element |
+| [min-width](https://www.w3schools.com/cssref/pr_dim_min-width.asp) | Sets the minimum width of an element |
+| [max-width](https://www.w3schools.com/cssref/pr_dim_max-width.asp) | Sets the maximum width of an element |

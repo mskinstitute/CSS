@@ -29,17 +29,6 @@ The classes above can be combined to create more dynamic and flexible layouts.
 
 The following is a basic structure of a Bootstrap 5 grid:
 ```html
-<!-- Control the column width, and how they should appear on different devices -->  
-<div class="row">  
-  <div class="col-*-*"></div>  
-  <div class="col-*-*"></div>  
-</div>  
-<div class="row">  
-  <div class="col-*-*"></div>  
-  <div class="col-*-*"></div>  
-  <div class="col-*-*"></div>  
-</div>  
-  
 <!-- Or let Bootstrap automatically handle the layout -->  
 <div class="row">  
   <div class="col"></div>  
@@ -81,15 +70,12 @@ The following example shows how to create four equal-width columns starting at t
 ```
 
 ## Two Unequal Responsive Columns
-
-
 The following example shows how to get two various-width columns starting at tablets and scaling to large extra desktops:
 
 ### Example
-
+```html
 <div class="row">  
   <div class="col-sm-4">.col-sm-4</div>  
   <div class="col-sm-8">.col-sm-8</div>  
 </div>
-
-[Try it Yourself »](https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.phptryit.asp?filename=trybs_grid_ex2&stacked=h)
+```

@@ -73,7 +73,7 @@ If you don't want to download and host Bootstrap 5 yourself, you can include it 
 
 jsDelivr provides CDN support for Bootstrap's CSS and JavaScript:
 
-### MaxCDN:
+### CDN Link:
 ```html
 <!-- Latest compiled and minified CSS -->  
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">  
