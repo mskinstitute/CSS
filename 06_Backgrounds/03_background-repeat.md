@@ -58,3 +58,6 @@ body {
 | --- | --- |
 | [background-position]() | Sets the starting position of a background image |
 | [background-repeat]() | Sets how a background image will be repeated |
+
+
+# [<<< Previous](02_background_image.md) :: [Next >>>](04_background-attachment.md)

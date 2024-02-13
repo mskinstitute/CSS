@@ -40,3 +40,6 @@ body {
 | local | The background image will scroll with the element's contents |
 | initial | Sets this property to its default value. [Read about _initial_]() |
 | inherit | Inherits this property from its parent element. [Read about _inherit_]() |
+
+
+# [<<< Previous](03_background-repeat.md) :: [Next >>>](05_background_Shorthand_property.md)

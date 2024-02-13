@@ -75,3 +75,6 @@ To view the dimension of any element follow the steps or video:
 3.  Select the element
 4.  Unhide the computed styles sidebar.
 5.  Toggle the properties.
+
+
+# [👈 Previous](../06_Backgrounds/01_Backgrounds.md) 📝 [Next 👉](../08_Borders/01_Borders.md)

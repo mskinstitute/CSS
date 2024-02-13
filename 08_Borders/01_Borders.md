@@ -93,3 +93,5 @@ p.mix {border-style: dotted dashed solid double;}
 </body>
 
 > **Note:** None of the OTHER CSS border properties (which you will learn more about in the next chapters) will have ANY effect unless the `border-style` property is set!
+
+# [👈 Previous](../07_Box_Modal/01_box_modal.md) 📝 [Next 👉](../09_Padding/01_Padding.md)

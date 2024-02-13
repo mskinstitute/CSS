@@ -179,6 +179,8 @@ The following example shows the code for a basic Bootstrap 5 page (with a full w
   <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>  
 </div>  
   
-</body>  
+</body>
 </html>
 ```
+
+#  📝  [Next](../02_Containers/01_Containers.md) 👉

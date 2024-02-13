@@ -38,3 +38,5 @@ p {
 | Property | Description |
 | --- | --- |
 | [background-image]() | Sets the background image for an element |
+
+# [<<< Previous](01_Backgrounds.md) :: [Next >>>](03_background-repeat.md)

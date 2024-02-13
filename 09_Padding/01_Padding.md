@@ -150,3 +150,6 @@ div {
 | [padding-left]() | Sets the left padding of an element |
 | [padding-right]() | Sets the right padding of an element |
 | [padding-top]() | Sets the top padding of an element |
+
+
+# [👈 Previous](../08_Borders/01_Borders.md) 📝 [Next 👉](../10_Margins/01_Margins.md)

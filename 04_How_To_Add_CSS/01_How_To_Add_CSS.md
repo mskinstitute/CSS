@@ -158,4 +158,4 @@ However, if the internal style is defined **before** the link to the external st
     <link rel="stylesheet" type="text/css" href="mystyle.css">  
 </head>
 ```
-# [<<< Previous](../03_Selectors/01_Selectors.md) :: [Next >>>]()
+# [<<< Previous](../03_Selectors/01_Selectors.md) :: [Next >>>](../05_Comments/01_Comments.md)

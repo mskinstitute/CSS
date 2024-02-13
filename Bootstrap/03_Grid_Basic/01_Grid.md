@@ -79,3 +79,6 @@ The following example shows how to get two various-width columns starting at tab
   <div class="col-sm-8">.col-sm-8</div>  
 </div>
 ```
+
+
+# 👈 [Back](../02_Containers/01_Containers.md)  📝  [Next](../04_Typography/01_Typography.md) 👉

@@ -1,4 +1,5 @@
 ## CSS Margins
+<!-- <body style="background-color:skyblue;> -->
 
 The CSS `margin` properties are used to create space around elements, outside of any defined borders.
 
@@ -143,3 +144,6 @@ p.ex1 {  margin-left: inherit;}
 | [margin-left]() | Sets the left margin of an element |
 | [margin-right]() | Sets the right margin of an element |
 | [margin-top]() | Sets the top margin of an element |
+
+
+# [👈 Previous](../09_Padding/01_Padding.md) 📝 [Next 👉](../11_Hight_Width/01_Height_Width_and_Max_width.md)

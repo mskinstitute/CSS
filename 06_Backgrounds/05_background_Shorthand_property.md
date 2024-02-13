@@ -63,3 +63,5 @@ h1 {
 | [background-position]() | Sets the starting position of a background image |
 | [background-repeat]() | Sets how a background image will be repeated |
 | [background-size]() | Specifies the size of the background image(s) |
+
+# [<<< Previous](04_background-attachment.md) :: [Next >>>](../07_Box_Modal/01_box_modal.md)

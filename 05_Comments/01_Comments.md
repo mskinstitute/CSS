@@ -78,3 +78,4 @@ In the following example, we use a combination of HTML and CSS comments:
     </body>  
 </html>
 ```
+# [<<< Previous](../04_How_To_Add_CSS/01_How_To_Add_CSS.md) :: [Next >>>](../06_Backgrounds/01_Backgrounds.md)

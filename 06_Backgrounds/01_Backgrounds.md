@@ -30,7 +30,7 @@ With CSS, a color is most often specified by:
 -   a HEX value - like "#ff0000"
 -   an RGB value - like "rgb(255,0,0)"
 
-Look at [CSS Color Values]() for a complete list of possible color values.
+Look at [CSS Color Values](/HTML_Course/09_Colors/01_colors.md) for a complete list of possible color values.
 
 ## Other Elements
 
@@ -98,3 +98,6 @@ div {
 | Property | Description |
 | --- | --- |
 | [background-color]() | Sets the background color of an element |
+
+
+# [<<< Previous](../05_Comments/01_Comments.md) :[More](02_background_image.md): [Next >>>](../07_Box_Modal/01_box_modal.md)
