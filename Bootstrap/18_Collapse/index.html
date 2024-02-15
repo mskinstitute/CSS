@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <br><br>
+
+    <!-- Collapse With Button Tag:  -->
+    <h1>#Collapse With <code>&lt;Button&gt;</code> Tag:</h1>
+
+    <button data-bs-toggle="collapse" data-bs-target="#demo1">Details</button>
+    <div id="demo1" class="collapse">
+        MSK Institute is the best for Coding & Computer Courses
+    </div>
+
+    <br><br>
+
+    <!-- Collapse With Ancher Tag:  -->
+    <h1># Collapse With <code>&lt;a&gt;</code> Tag:</h1>
+
+    <a href="#demo2" data-bs-toggle="collapse">Collapsible</a>
+    <div id="demo2" class="collapse">
+        Lorem ipsum dolor text....
+    </div>
+
+    <br><br>
+
+    <h1># Set By Default <code>show</code> Collapse:</h1>
+    <div id="demo" class="collapse show">
+        This text data show by Default from <code>.show</code> bootstrap class
+    </div>
+
+    <br><br>
+
+    <!-- Create List With Collapse -->
+    <h1># Create List With collapse:</h1>
+    <div id="accordion">
+
+        <div class="card">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                    Collapsible Group Item #1
+                </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum..
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                    Collapsible Group Item #2
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum..
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                    Collapsible Group Item #3
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum..
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

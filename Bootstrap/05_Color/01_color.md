@@ -13,6 +13,8 @@ Colors name for bootstrap:
 - light
 - white
 
+## [Example File:](index.html)
+
 ```html
 <p class="text-muted">muted.</p>
 <p class="text-primary">important.</p>
@@ -27,11 +29,11 @@ Colors name for bootstrap:
 <p class="text-white">white (on white background).</p>
 ```
 
-## `.text-color-opacity-30`
-You can also add 30% opacity for black or white text with the `.text-black-30` or `.text-white-30` classes:
+## `.text-color-opacity-50`
+You can also add 50% opacity for black or white text with the `.text-black-50` or `.text-white-50` classes:
 ```html
-<p class="text-black-30">Black text with 30% opacity on white background</p>
-<p class="text-white-30 bg-dark">White text with 30% opacity on black background</p>
+<p class="text-black-50">Black text with 50% opacity on white background</p>
+<p class="text-white-50 bg-dark">White text with 50% opacity on black background</p>
 ```
 
 ## `.bg-color`
@@ -60,3 +62,5 @@ However, you can use the `.text-bg-color` classes and Bootstrap will automatical
 <p class="text-bg-dark">Dark grey background color.</p>
 <p class="text-bg-light">Light grey background color.</p>
 ```
+
+# 👈 [Back](../04_Typography/01_Typography.md)  📝  [Next](../06_Tables/01_Tables.md) 👉
