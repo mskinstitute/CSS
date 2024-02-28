@@ -59,19 +59,19 @@ Add rounded corners to an element with the `rounded` classes:
 
 ### Example
 ```html
-<span class="rounded"></span>
-<span class="rounded-top"></span>
-<span class="rounded-end"></span>
-<span class="rounded-bottom"></span>
-<span class="rounded-start"></span>
-<span class="rounded-circle"></span>
-<span class="rounded-pill" style="width:130px"></span>
-<span class="rounded-0"></span>
-<span class="rounded-1"></span>
-<span class="rounded-2"></span>
-<span class="rounded-3"></span>
-<span class="rounded-4"></span>
-<span class="rounded-5"></span>
+<span class="border rounded"></span>
+<span class="border rounded-top"></span>
+<span class="border rounded-end"></span>
+<span class="border rounded-bottom"></span>
+<span class="border rounded-start"></span>
+<span class="border rounded-circle"></span>
+<span class="border rounded-pill" style="width:130px"></span>
+<span class="border rounded-0"></span>
+<span class="border rounded-1"></span>
+<span class="border rounded-2"></span>
+<span class="border rounded-3"></span>
+<span class="border rounded-4"></span>
+<span class="border rounded-5"></span>
 ```
 
 ## Float and Clearfix
@@ -152,107 +152,47 @@ Where _property_ is one of:
 
 Where _sides_ is one of:
 
--   `t` - sets `margin-top` or `padding-top`
--   `b` - sets `margin-bottom` or `padding-bottom`
--   `s` - sets `margin-left` or `padding-left`
--   `e` - sets `margin-right` or `padding-right`
--   `x` - sets both `padding-left` and `padding-right` or `margin-left` and `margin-right`
--   `y` - sets both `padding-top` and `padding-bottom` or `margin-top` and `margin-bottom`
--   blank - sets a `margin` or `padding` on all 4 sides of the element
+-   `t` - sets `top`
+-   `b` - sets `bottom`
+-   `s` - sets `left`
+-   `e` - sets `right`
+-   `x` - sets both `left` and `right`
+-   `y` - sets both `top` and `bottom`
 
 Where _size_ is one of:
 
--   `0` - sets `margin` or `padding` to `0`
--   `1` - sets `margin` or `padding` to `.25rem`
--   `2` - sets `margin` or `padding` to `.5rem`
--   `3` - sets `margin` or `padding` to `1rem`
--   `4` - sets `margin` or `padding` to `1.5rem`
--   `5` - sets `margin` or `padding` to `3rem`
+-   `0` - sets to `0`
+-   `1` - sets to `4px`
+-   `2` - sets to `8px`
+-   `3` - sets to `16px`
+-   `4` - sets to `24px`
+-   `5` - sets to `48px`
 -   `auto` - sets `margin` to auto
 
 ### Example
 ```html
-<div class="pt-4 bg-warning">I only have a top padding (1.5rem)</div>
-<div class="p-5 bg-success">I have a padding on all sides (3rem)</div>
-<div class="m-5 pb-5 bg-info">I have a margin on all sides (3rem) and a bottom padding (3rem)</div>
+<div class="pt-4 bg-warning">I only have a top padding (24px)</div>
+<div class="p-5 bg-success">I have a padding on all sides (48px)</div>
+<div class="m-5 pb-5 bg-info">I have a margin on all sides (48px) and a bottom padding (48px)</div>
 ```
 
 ### More Spacing Examples
-
-<table class="ws-table-all">
-    <tbody>
-        <tr>
-            <td><code>.m-# / m-*-#</code></td>
-            <td>margin on all sides</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.mt-# / mt-*-#</code></td>
-            <td>margin top</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.mb-# / mb-*-#</code></td>
-            <td>margin bottom</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.ms-# / ms-*-#</code></td>
-            <td>margin left</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.me-# / me-*-#</code></td>
-            <td>margin right</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.mx-# / mx-*-#</code></td>
-            <td>margin left and right</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.my-# / my-*-#</code></td>
-            <td>margin top and bottom</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.p-# / p-*-#</code></td>
-            <td>padding on all sides</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.pt-# / pt-*-#</code></td>
-            <td>padding top</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.pb-# / pb-*-#</code></td>
-            <td>padding bottom</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.ps-# / ps-*-#</code></td>
-            <td>padding left</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.pe-# / pe-*-#</code></td>
-            <td>padding right</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.py-# / py-*-#</code></td>
-            <td>padding top and bottom</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-        <tr>
-            <td><code>.px-# / px-*-#</code></td>
-            <td>padding left and right</td>
-            <td><a href="#" class="ws-btn w3-block" target="_blank">Try it</a></td>
-        </tr>
-    </tbody>
-</table>
+| Class | Discription | Example |
+|---------|--------------------|-------------------------------|
+| `.m-#`  |	margin on all sides	| `<div class="m-3" > Hello </div>` |
+| `.mt-#` |	margin top	| `<div class="mt-3" > Hello </div>` |
+| `.mb-#` |	margin bottom	| `<div class="mb-3" > Hello </div>` |
+| `.ms-#` |	margin left	| `<div class="ms-3" > Hello </div>` |
+| `.me-#` |	margin right	| `<div class="me-3" > Hello </div>` |
+| `.mx-#` |	margin left and right	| `<div class="mx-3" > Hello </div>` |
+| `.my-#` |	margin top and bottom	| `<div class="my-3" > Hello </div>` |
+| `.p-#`  |   padding on all sides	| `<div class="p-3" > Hello </div>` |
+| `.pt-#` |	padding top	| `<div class="pt-3" > Hello </div>` |
+| `.pb-#` |	padding bottom	| `<div class="pb-3" > Hello </div>` |
+| `.ps-#` |	padding left	| `<div class="ps-3" > Hello </div>` |
+| `.pe-#` |	padding right	| `<div class="pe-3" > Hello </div>` |
+| `.py-#` |	padding top and bottom	| `<div class="py-3" > Hello </div>` |
+| `.px-#` |	padding left and right	| `<div class="px-3" > Hello </div>` |
 
 You can read more about `rem` and different size units in our [CSS Units Reference](#).
 

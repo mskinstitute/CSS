@@ -46,7 +46,7 @@ Use the `.progress-bar-striped` class to add stripes to the progress bars:
 ```html
 <div class="progress">
     <div class="progress-bar bg-info progress-bar-striped" style="width:50%"></div>
-</div
+</div>
 ```
 
 ## `.progress-bar-animated` Animated Progress Bar5
