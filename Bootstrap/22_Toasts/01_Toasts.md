@@ -12,7 +12,8 @@ ___
 
 To create a toast, use the `.toast` class, and add a `.toast-header` and a `.toast-body` inside of it.
 
-**Note:** Toasts are hidden by default. Use the `.show` class if you want to display it. To close it, use a <button> element and add `data-bs-dismiss="toast"`:
+**Note:** Toasts are hidden by default. Use the `.show` class if you want to display it. To close it, use a `<button>` element and add `data-bs-dismiss="toast"`:
+
 ```html
 <div class="toast show">
   <div class="toast-header">
@@ -24,6 +25,7 @@ To create a toast, use the `.toast` class, and add a `.toast-header` and a `.toa
   </div>
 </div>
 ```
+
 ## Open a Toast
 
 To show a toast with a click of a button, you must initialize it with JavaScript: select the specified element and call the `toast()` method.

@@ -1,33 +1,34 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <div class="d-flex p-3 bg-secondary text-white">
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-warning">Flex item 2</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-warning">Flex item 2</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
+    <div class="p-2 bg-info">Button 1</div>
+    <div class="p-2 bg-warning">Button 2</div>
+    <div class="p-2 bg-primary">Button 3</div>
+    <div class="p-2 bg-info">Button 4</div>
+    <div class="p-2 bg-warning">Button 5</div>
+    <div class="p-2 bg-primary">Button 6</div>
 </div>
 
 <br>
 
 <div class="d-inline-flex p-3 bg-secondary text-white">
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-warning">Flex item 2</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-warning">Flex item 2</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
+    <div class="p-2 bg-info">Button 1</div>
+    <div class="p-2 bg-warning">Button 2</div>
+    <div class="p-2 bg-primary">Button 3</div>
+    <div class="p-2 bg-info">Button 4</div>
+    <div class="p-2 bg-warning">Button 5</div>
+    <div class="p-2 bg-primary">Button 6</div>
 </div>
 
 <div class="container mt-3">
-    <h2>Horizontal Direction</h2>
+    <h2>.flex-row</h2>
     <p>Use .flex-row to make the flex items appear side by side (default):</p>
     <div class="d-flex flex-row bg-secondary mb-3">
         <div class="p-2 bg-info">Flex item 1</div>
         <div class="p-2 bg-warning">Flex item 2</div>
         <div class="p-2 bg-primary">Flex item 3</div>
     </div>
+    <h2>.flex-row-reverse</h2>
     <p>Use .flex-row-reverse to right-align the direction:</p>
     <div class="d-flex flex-row-reverse bg-secondary">
         <div class="p-2 bg-info">Flex item 1</div>
@@ -39,13 +40,14 @@
 
 
 <div class="container mt-3">
-    <h2>Vertical Direction</h2>
+    <h2>.flex-column</h2>
     <p>Use .flex-column to display the flex items vertically (on top of each other):</p>
     <div class="d-flex flex-column mb-3">
         <div class="p-2 bg-info">Flex item 1</div>
         <div class="p-2 bg-warning">Flex item 2</div>
         <div class="p-2 bg-primary">Flex item 3</div>
     </div>
+    <h2>.flex-column-reverse</h2>
     <p>Use .flex-column-reverse to reverse the vertical direction:</p>
     <div class="d-flex flex-column-reverse">
         <div class="p-2 bg-info">Flex item 1</div>
@@ -56,9 +58,9 @@
 
 
 <div class="container mt-3">
-    <h2>Justify content</h2>
-    <p>Use the .justify-content-* classes to change the alignment of flex items. Choose from start (default), end,
-        center, between or around:</p>
+    <h2>.justify-content-*</h2>
+    <p>Use the .justify-content-* classes to change the alignment of flex items. Choose from <code>start</code> (default), end,
+        <code>center</code>, <code>between</code> or <code>around</code>:</p>
     <div class="d-flex justify-content-start bg-secondary mb-3">
         <div class="p-2 bg-info">Start</div>
         <div class="p-2 bg-info">Start</div>
@@ -115,7 +117,7 @@
     <p>Use .flex-grow-1 on a flex item to take up the rest of the space:</p>
     <div class="d-flex mb-3">
         <div class="p-2 bg-info">Flex item 1</div>
-        <div class="p-2 flex-grow-1 bg-warning">Flex item 2</div>
+        <div class="p-2 flex-shrink-1 bg-warning">Flex item 2</div>
         <div class="p-2  bg-primary">Flex item 3</div>
     </div>
     <p>Example without .flex-grow-1:</p>
@@ -136,3 +138,18 @@
         <div class="p-2 order-2 bg-primary">Flex item 3</div>
     </div>
 </div>
+
+<div class="container mt-3">
+    <h2>Auto Margins</h2>
+    <p>Easily add auto margins to flex items with .mr-auto (push items to the right), or by using .ml-auto (push items to the left):</p>
+    <div class="d-flex mb-3 bg-secondary">
+      <div class="p-2 ms-auto bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 bg-primary">Flex item 3</div>
+    </div>
+    <div class="d-flex mb-3 bg-secondary">
+      <div class="p-2  bg-info">Flex item 1</div>
+      <div class="p-2 bg-warning">Flex item 2</div>
+      <div class="p-2 me-auto bg-primary">Flex item 3</div>
+    </div>
+  </div>
