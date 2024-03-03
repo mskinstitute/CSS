@@ -198,7 +198,7 @@ Control the vertical alignment of **gathered** flex items with the `.align-conte
 
 Click on the buttons below to see the difference between the five classes, by changing the vertical alignment of the flex items in the example box:
 
-### [Open Example](examples/Align_Content.html)
+### [Open Example](examples/align_content.html)
 ```html
 <div class="d-flex flex-wrap align-content-start">..</div>
 
@@ -219,7 +219,7 @@ Click on the buttons below to see the difference between the five classes:
 
 align-items-start align-items-end align-items-center align-items-baseline align-items-stretch
 
-### [Open Example](examples)
+### [Open Example](examples/align_item.html)
 
 ```html
 <div class="d-flex align-items-start">..</div>
@@ -237,7 +237,7 @@ Click on the buttons below to see the difference between the five classes:
 
 align-self-start align-self-end align-self-center align-self-baseline align-self-stretch
 
-### Example
+### [Example](examples/align_self.html)
 ```html
 <div class="d-flex bg-light" style="height:150px">  
   <div class="p-2 border">Flex item 1</div>
