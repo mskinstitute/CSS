@@ -2,6 +2,11 @@
 
 The following example shows how to create a basic modal:
 
+> **Note:**  Not working without these link: 👇
+```html
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+```
 ### Example
 ```html
 <!-- Button to Open the Modal -->
