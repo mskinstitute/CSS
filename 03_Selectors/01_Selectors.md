@@ -93,7 +93,7 @@ In this example the `<p>` element will be styled according to `class="center"` a
 
 ## The CSS Universal Selector
 
-The universal selector `(\*)` selects all HTML elements on the page.
+The universal selector `(*)` selects all HTML elements on the page.
 
 ### Example
 

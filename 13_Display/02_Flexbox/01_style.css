@@ -1,0 +1,202 @@
+.container {
+    border: 2px solid rgb(255, 77, 0);
+}
+
+.item {
+    color: white;
+    font-size: 25px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.container1 {
+    /* change item direction left to right */
+    display: flex; 
+}
+
+.cat1 {
+    background-color: rgb(34, 87, 243);
+}
+
+.container2{
+    display: flex;
+    justify-content: center; /* work on x position */
+}
+
+.cat2 {
+    background-color: rgb(43, 58, 102);
+}
+
+.container3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cat3 {
+    background-color: rgb(196, 36, 254);
+}
+
+.container4{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cat4 {
+    background-color: rgb(254, 36, 94);
+}
+
+.container5{
+    height: 300px;
+    display: flex;
+    align-items: center;  /* work on y position */
+}
+
+.cat5 {
+    background-color: rgb(34, 87, 243);
+}
+
+.container6{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cat6 {
+    background-color: rgb(43, 58, 102);
+}
+
+.container7{
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.cat7 {
+    background-color: rgb(196, 36, 254);
+}
+
+.container8{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat8 {
+    background-color: rgb(254, 36, 94);
+}
+
+.container9{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat9 {
+    background-color: rgb(34, 87, 243);
+}
+
+.container10{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat10 {
+    background-color: rgb(43, 58, 102);
+}
+
+.container11{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cat11 {
+    background-color: rgb(196, 36, 254);
+}
+
+.container12{
+    display: flex;
+    flex-direction: column;
+}
+
+.cat12 {
+    background-color: rgb(254, 36, 94);
+}
+
+.container13{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.cat13 {
+    background-color: rgb(34, 87, 243);
+}
+
+.container14{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cat14 {
+    background-color: rgb(43, 58, 102);
+}
+
+.container15{
+    height: 900px;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.cat15 {
+    background-color: rgb(196, 36, 254);
+}
+
+.container16{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat16 {
+    background-color: rgb(254, 36, 94);
+}
+
+.container17{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; /* use with flex wrap or more then one line in box */
+}
+
+.cat17 {
+    background-color: rgb(34, 87, 243);
+}
+
+.container18{
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap; /* use for flex direction and flex wrap in one time*/
+}
+
+.cat18 {
+    background-color: rgb(43, 58, 102);
+}
+
+.container19{
+    height: 500px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    /* not work gap without flex-wrap & align-content */
+    /* gap: 20px;  */
+    /* column-gap: 15px; */
+    /* row-gap: 5px; */
+    gap: 30px 12px;
+
+}
+
+.cat19 {
+    background-color: rgb(196, 36, 254);
+}
+

@@ -1,17 +1,8 @@
 # CSS Padding
 
-Padding is used to create space around an element's content, inside of any defined borders.
-<div style="padding:40px; border: 2px solid">
-This element has a padding of 40px.
-</div>
-  
-## CSS Padding
-
 The CSS `padding` properties are used to generate space around an element's content, inside of any defined borders.
 
 With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
-
-___
 
 ## Padding - Individual Sides
 
@@ -31,30 +22,16 @@ All the padding properties can have the following values:
 **Note:** Negative values are not allowed.
 
 ### Example
-
-Set different padding for all four sides of a <div> element:  
+Set different padding for all four sides of a `<div>` element:  
 ```css
 div {
-    padding-top: 40px;  
-    padding-right: 30px;  
-    padding-bottom: 20px;  
-    padding-left: 50px;
+    padding-top: 40px;
 }
 ```
 
-
-## Padding - Shorthand Property
-
-To shorten the code, it is possible to specify all the padding properties in one property.
+## Padding - Shorthand Property `padding-*-*`:
 
 The `padding` property is a shorthand property for the following individual padding properties:
-
--   `padding-top`
--   `padding-right`
--   `padding-bottom`
--   `padding-left`
-
-So, here is how it works:
 
 If the `padding` property has four values:
 
